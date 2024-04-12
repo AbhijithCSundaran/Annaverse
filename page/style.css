@@ -188,3 +188,80 @@ header .bg_head {
   top: -21px;
   z-index: -1;
 }
+
+.creator {
+  background-image: url(images/createrBG.svg);
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 26px;
+}
+
+.creator .title {
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 12px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.creator .desc {
+  color: white;
+  font-size: 10px;
+  letter-spacing: 0;
+}
+
+.creator .people {
+  justify-content: space-between;
+  padding: 0px 24px;
+  margin-bottom: 20px;
+}
+
+.creator .person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+
+.creator .person .text1 {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.creator .person .text2 {
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.creator .person .text3,
+.creator .person .text4 {
+  font-size: 8px;
+  margin-top: 2px;
+}
+
+.creator .achivements {
+  width: 430px;
+  margin-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.1;
+}
+
+.creator .achivements .text1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.creator .achivements .text2 {
+  font-size: 12px;
+  margin-top: 7px;
+  width: 98px;
+}
+
+.creator .achivements .text3 {
+  font-size: 10px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  width: 405px;
+}
