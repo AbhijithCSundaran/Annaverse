@@ -20,10 +20,11 @@ body {
 }
 
 header .sm_head {
-  font-size: 12.5px;
+  font-size: 12px;
   margin-top: 15px;
   color: #000000;
   opacity: 0.4;
+  letter-spacing: 0.3px;
 }
 
 .md_head {
