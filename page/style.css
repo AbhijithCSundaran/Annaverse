@@ -30,6 +30,7 @@ header .sm_head {
   text-transform: uppercase;
   font-size: 9px;
   margin-top: 9px;
+  margin-left: 14px;
   letter-spacing: 13px;
   background: -webkit-linear-gradient(-90deg, #9174b469 0%, #705899 100%);
   background-clip: text;
@@ -40,7 +41,6 @@ header .sm_head {
 header .bg_head {
   margin-top: 6px;
   margin-bottom: 10px;
-  margin-right: 6px;
 }
 
 .banner {
@@ -265,6 +265,8 @@ header .bg_head {
   font-size: 16px;
   line-height: 1.05;
   width: 143px;
+  font-weight: 600;
+  padding-top: 2px;
 }
 
 .section4 .achivements .text2 {
